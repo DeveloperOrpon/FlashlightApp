@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:src="@drawable/off"
+        />
+
+    <TextView
+        android:id="@+id/statustext"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:fontFamily="@font/black_ops_one"
+        android:text="OFF"
+        android:textSize="35sp"
+        android:textColor="@color/purple_500"
+        android:textAlignment="center" />
+
+</LinearLayout>
