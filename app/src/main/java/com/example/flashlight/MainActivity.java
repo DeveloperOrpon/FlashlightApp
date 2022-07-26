@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                         statusText.setText("ON");
                     }
                     catch (CameraAccessException e){
-
+//
                     }
                 }
                 else {
